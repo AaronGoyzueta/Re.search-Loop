@@ -3,7 +3,7 @@
 import re
 
 def main(exp, text):
-    cont = 0
+    cont = False
     output = re.search(exp, text)
     if output:
         
